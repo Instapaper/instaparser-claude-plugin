@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "instaparser-plugins",
+  "description": "Instaparser plugins for Claude Code - article parsing, PDF extraction, and content summarization.",
+  "owner": {
+    "name": "Instapaper",
+    "email": "support@instaparser.com"
+  },
+  "plugins": [
+    {
+      "name": "instaparser",
+      "description": "Parse articles, extract PDF content, and generate AI-powered summaries from any URL using the Instaparser API.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/instapaper/instaparser-claude-plugin"
+      },
+      "homepage": "https://instaparser.com",
+      "author": {
+        "name": "Instapaper"
+      },
+      "tags": ["article-parser", "pdf-parser", "content-extraction", "summarization"]
+    }
+  ]
+}

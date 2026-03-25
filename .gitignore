@@ -1,0 +1,33 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node (if SDK examples are added)
+node_modules/
+package-lock.json
+
+# Python (if SDK examples are added)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Archives
+*.zip
+*.tar.gz
+
+# Agents
+.claude
